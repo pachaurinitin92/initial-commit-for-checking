@@ -23,7 +23,7 @@ public class WelcomeServlet extends HttpServlet {
 		String name = request.getParameter("name");
 		request.setAttribute("name", name);
 		String[] fields = new String[5];
-		System.out.println("test1");
+		System.out.println("test2");
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/rahul", "root", "root");
